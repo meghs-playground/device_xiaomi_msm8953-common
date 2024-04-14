@@ -430,5 +430,8 @@ PRODUCT_PACKAGES += \
     Messaging \
     Contacts
 
+# Lawnchair
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/msm8953-common/msm8953-common-vendor.mk)
