@@ -425,7 +425,10 @@ PRODUCT_PACKAGES += \
     LatinIME \
     ExactCalculator \
     Glimpse \
-    Jelly
+    Jelly \
+    Dialer \
+    Messaging \
+    Contacts
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/msm8953-common/msm8953-common-vendor.mk)
